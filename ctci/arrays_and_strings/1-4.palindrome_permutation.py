@@ -18,6 +18,7 @@ Initial thoughts
         i don't think we can without greatly sacrificing time 
     does sorting help us? not really
     lowercase and strip whitespace
+        unneccessary to eliminate whitespace, just skip them
 """
 
 def palindrome_permutation(string):
