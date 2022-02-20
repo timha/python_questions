@@ -1,13 +1,13 @@
 """
-    given two strings, decide if one is a permutation of the other
+given two strings, decide if one is a permutation of the other
 """
 
 """
-    Initial thoughts
-        if lengths are different -> False
-        sort both strings first, check char by char equality
-        if not allowed to sort, add chars of str1 to array, remove them as you encounter them in array
-            ord()
+Initial thoughts
+    if lengths are different -> False
+    sort both strings first, check char by char equality
+    if not allowed to sort, add chars of str1 to array, remove them as you encounter them in array
+        ord()
 """
 
 
@@ -21,8 +21,8 @@ def check_permutation_with_sort(str1, str2):
 
     # standard implementation without using zip()
     #for i in range(len(str1)):
-    #    if str1[i] != str2[i]:
-    #        return False
+    #   if str1[i] != str2[i]:
+    #       return False
 
     # using zip()
     for c1, c2 in zip(str1, str2):
