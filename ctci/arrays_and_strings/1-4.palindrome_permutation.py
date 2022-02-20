@@ -36,3 +36,14 @@ def palindrome_permutation(string):
 
 print(palindrome_permutation("tomcat"))
 print(palindrome_permutation("race     CAr"))
+
+
+
+"""
+Learnings
+1. mentioned in previous problem, but familiar self with common ASCII values/ranges, extended ASCII, Unicode
+2. think of casing, whitespaces, special characters
+    especially if a problem says to ignore casing, non-letters. may be able to take advantage of that
+3. we could keep track of # of odd along the way. this may or may not even be faster though, but a consideration
+4. bit vectors
+"""
