@@ -19,7 +19,7 @@ def check_permutation_with_sort(str1, str2):
     str1 = sorted(str1)
     str2 = sorted(str2)
 
-    # standard implementation with using zip()
+    # standard implementation without using zip()
     #for i in range(len(str1)):
     #    if str1[i] != str2[i]:
     #        return False
