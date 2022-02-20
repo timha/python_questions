@@ -28,7 +28,7 @@ print(is_unique_2("qweroiudkcm"))
 
 
 """
-Learning
+Learnings
 1. ask questions
     is string ASCII or unicode? 
         e.g. ASCII only has 128 characters, if string is 130 length then it can't be unique
